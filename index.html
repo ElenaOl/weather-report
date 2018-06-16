@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+  <title>Weather report</title>
+</head>
+<body>
+
+  <form id="search-form">
+      <i class="fas fa-search f002"></i><input id="query" type="text" size="50" placeholder="Enter the name of the city you are looking for">
+      <button type="submit">Search</button>
+  </form>
+<div id="for-position">
+  <div id="results">
+    <div id="city-x">
+      <div id="search">
+          <i class="fas fa-search f002"></i>  
+      </div>
+      <div id="city"></div>
+      <div id="x">
+          <i class="fas fa-times"></i>
+      </div>    
+    </div>
+    
+    
+    
+    <div id="current">
+      <div id="curr-temp"></div>
+      <div id="curr-summ">
+        <div id="unit1"><sup>o</sup>F</div>
+        <div id="curr-description"></div>
+        <div id="curr-humidity"></div>
+      </div>
+      
+    </div>
+    <div id="forecast">
+      <div id="f1">
+        <div id="forecast-date-1" class="date"></div>
+        <div><img id="forecast-icon-1" src=""></div>
+        <div id="forecast-tempmax-1" class="temp-max"></div>
+        <div id="forecast-tempmin-1" class="temp-min"></div>
+      </div>
+      <div id="f2">
+        <div id="forecast-date-2" class="date"></div>
+        <div><img id="forecast-icon-2" src=""></div>
+        <div id="forecast-tempmax-2" class="temp-max"></div>
+        <div id="forecast-tempmin-2" class="temp-min"></div>
+      </div>
+      <div id="f3">
+        <div id="forecast-date-3" class="date"></div>
+        <div><img id="forecast-icon-3" src=""></div>
+        <div id="forecast-tempmax-3" class="temp-max"></div>
+        <div id="forecast-tempmin-3" class="temp-min"></div>
+      </div>
+      <div id="f4">
+        <div id="forecast-date-4" class="date"></div>
+        <div><img id="forecast-icon-4" src=""></div>
+        <div id="forecast-tempmax-4" class="temp-max"></div>
+        <div id="forecast-tempmin-4" class="temp-min"></div>
+      </div>
+      <div id="f5">
+        <div id="forecast-date-5" class="date"></div>
+        <div><img id="forecast-icon-5" src=""></div>
+        <div id="forecast-tempmax-5" class="temp-max"></div>
+        <div id="forecast-tempmin-5" class="temp-min"></div>
+      </div>
+    </div>
+  </div>  
+
+  <div id="cloud1">
+    <img src="./img/cloud1.png">
+  </div>
+  <div id="cloud2">
+    <img src="./img/cloud2.png">
+  </div>  
+</div>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
